@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Volei Brasileiro</title>
+</head>
+
+<body>
+
+    <header>
+        <h1> As melhores do Vôlei </h1>
+
+    </header>
+    <main>
+        <section>
+            <input type="text" placeholder="Digite o nome da jogadora" id="campo-pesquisa">
+            <button onclick="pesquisar()"> Pesquisar </button>
+        </section>
+
+        <!--quando abrimos parenteses, estamos abrindo uma função!!! -->
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+
+            <!-- OBS: as DIVs a seguir estariam aqui se fosse uma pagina html estática, mas como queremos vincular ao JS, podemos retirá-lo, ja que todas essas informações foram registradas no arquivo dados.js e vinculadas ao arquivo app.js (que é o arquivo onde programamos a lógica do JS)
+ 
+            <div class="item-resultado">
+                <h2>
+                    <a href="#" target="_blank"> Melina Teixeira </a>
+                </h2>
+                <p class="descricao-meta"> Melina, a líbero natalense que vai conquistar o mundo! Ela é um dos maiores
+                    destaques do vôlei do contemporâneo e, com sua agilidade, habilidade, determinação e talento, ela se
+                    tornará a melhor do Brasil. </p>
+
+                <a href="https://www.instagram.com/meulizzz/" target="_blank"> Siga Melina no Instagram </a>
+            </div>
+            <div class="item-resultado">
+                <h2>
+                    <a href="#" target="_blank"> Nyeme Costa Nunes </a>
+                </h2>
+                <p class="descricao-meta"> Nyeme, a líbero maranhense, é um dos maiores destaques do vôlei brasileiro.
+                    Com sua agilidade e habilidade impecável, ela se tornou peça fundamental na seleção brasileira. </p>
+                <a href="#" target="_blank"> Siga Nyeme no Instagram </a>
+            </div>
+
+            <div class="item-resultado">
+                <h2>
+                    <a href="#" target="_blank"> Gabi Guimarães </a>
+                </h2>
+                <p class="descricao-meta"> Gabi, a ponteira, é uma das atletas mais versáteis do vôlei mundial. Com sua
+                    força e precisão nos ataques, ela é um dos principais nomes da seleção brasileira. </p>
+                <a href="#" target="_blank"> Siga Gabi no Instagram </a>
+            </div>
+
+            <div class="item-resultado">
+                <h2>
+                    <a href="#" target="_blank"> Thaiza Daher </a>
+                </h2>
+                <p class="descricao-meta"> Thaiza, a experiente meio de rede, é um dos pilares da seleção brasileira.
+                    Com sua força e bloqueios impecáveis, ela é fundamental para o sucesso da equipe. </p>
+                <a href="#" target="_blank"> Siga Thaiza no Instagram </a>
+            </div>
+
+            <div class="item-resultado">
+                <h2>
+                    <a href="#" target="_blank"> Rosamaria Montibeller </a>
+                </h2>
+                <p class="descricao-meta"> Rosamaria, a oposta, é conhecida por seus ataques potentes e versatilidade em
+                    quadra. Sua presença é essencial para a ofensiva da seleção. </p>
+                <a href="#" target="_blank"> Siga Rosamaria no Instagram </a>
+            </div>
+
+            <div class="item-resultado">
+                <h2>
+                    <a href="#" target="_blank"> Julia Bergmann </a>
+                </h2>
+                <p class="descricao-meta"> Julia, a jovem ponteira, é uma das promessas do vôlei brasileiro. Com sua
+                    altura e habilidade, ela tem um futuro brilhante pela frente. </p>
+                <a href="#" target="_blank"> Siga Julia no Instagram </a>
+            </div>
+
+            <div class="item-resultado">
+                <h2>
+                    <a href="#" target="_blank"> Carolana </a>
+                </h2>
+                <p class="descricao-meta"> Ana Carolina da Silva, mais conhecida como Carolana ou simplesmente Carol, é
+                    uma central da Seleção Brasileira de Vôlei Feminino que tem se destacado no cenário internacional.
+                    Com sua altura e força, ela é uma peça fundamental no bloqueio e no ataque da equipe. </p>
+                <a href="#" target="_blank"> Siga Carolana no Instagram </a>
+            </div>
+        -->
+        </section>
+    </main>
+    <footer>
+        <p> 2024 - Atletas do Brasil. Todos os direitos reservados. </p>
+        <p>Entre em contato pelo email: melina.martins@contemporaneo.com.br </p>
+    </footer>
+
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
